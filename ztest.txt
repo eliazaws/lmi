@@ -1,0 +1,46 @@
+git init: Initialize a new Git repository in your current directory.
+
+git clone [repository URL]: Create a copy of a remote Git repository on your local machine.
+
+git add [file(s)]: Stage changes for commit. You can specify specific files or use git add . to stage all changes in the current directory.
+
+git commit -m "Your commit message": Commit your staged changes with a descriptive message.
+
+git status: Check the status of your working directory and see which files are staged or modified.
+
+git log: View the commit history, showing the commit messages, authors, and commit IDs.
+
+git branch: List all branches in your repository. An asterisk (*) will indicate the current branch.
+
+git branch [branch name]: Create a new branch.
+
+git checkout [branch name]: Switch to a different branch.
+
+git merge [branch name]: Merge changes from one branch into the current branch.
+
+git pull: Fetch and merge changes from a remote repository into your current branch.
+
+git push: Upload your local commits to a remote repository.
+
+git remote -v: List all configured remote repositories.
+
+git diff: Show the differences between your working directory and the last commit.
+
+git reset [file(s)]: Unstage changes that you previously added.
+
+git reset --hard [commit hash]: Reset your branch to a specific commit, discarding all changes after that commit.
+
+git stash: Temporarily save your uncommitted changes, allowing you to switch branches or work on something else.
+
+git stash pop: Retrieve the changes you stashed with git stash.
+
+git rm [file(s)]: Remove files from both your working directory and the Git repository.
+
+git remote add [remote name] [remote URL]: Add a new remote repository with a name for future reference.
+
+These are the fundamental Git commands that you'll frequently use. Git offers many more commands and options for more advanced use cases. You can access Git's built-in documentation with git --help or git [command] --help for more detailed information on each command and its options.
+
+
+
+git checkout ZTEST1
+
